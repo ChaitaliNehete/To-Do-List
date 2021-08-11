@@ -3,6 +3,7 @@ import Alert from './Alert'
 import List from './List'
 import './App.css'
 
+//for store data
 const getLocalStorage = () => {
   let list = localStorage.getItem('list');
   if (list) {
